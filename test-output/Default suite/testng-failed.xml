@@ -5,8 +5,10 @@
     <classes>
       <class name="com.bankingproject.loginpage.LoginPageTest">
         <methods>
+          <include name="clickloginWithCorrect"/>
           <include name="testTitle"/>
           <include name="tearDown"/>
+          <include name="testUrl"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.bankingproject.loginpage.LoginPageTest -->
